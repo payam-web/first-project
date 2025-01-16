@@ -1,0 +1,112 @@
+
+.w_100 {
+    width: 100% !important;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.image{
+    margin-top: 40px;
+    margin-bottom: 35px;
+    width: 400px;
+    height: 450px;
+}
+
+.bottom {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+
+
+
+@media (min-width : 600px) {
+    .top-navbar {
+        box-shadow: 0 0 50px gray !important;
+
+    }
+    #to-action-section{
+        display: flex;
+        align-items: center !important;
+    }
+
+}
+
+.bottom-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border-radius: 30px; */
+    display: flex;
+}
+
+.search {
+    width: 20px;
+    display: flex;
+}
+
+.w-full{
+    width: 100%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.add{
+    margin-right: 5px;
+}
+
+.first-button{
+    margin: 10px;
+}
+
+.material-icons{
+    position: relative;
+    top: 7px;
+}
+
+.f-bold{
+    font-weight: bold;
+}
+
+.trans-0-2{
+    transition: all 0.2s;
+
+}
+.user-list-item.active .user-list-arrow-icon{
+    transform: rotate(180deg);
+
+}
+.user-list-item.active , .user-list-item.active .collapsible-header {
+    background-color: rgba(165, 165, 165, 0.74);
+}
+.m-b-0{
+    margin-bottom: 0px;
+}
+.m-b-5 {
+    margin-bottom: 5px;
+
+}
+
+.p-all-5 {
+    padding: 5px;
+}
+
+.m-l-5{
+    margin-left: 5px;
+}
+.m-r-5{
+    margin-right: 5px;
+}
