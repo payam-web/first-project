@@ -30,8 +30,9 @@
     border-radius: 15px;
 }
 
-
-
+.ltr {
+    text-align: left;
+}
 
 @media (min-width : 600px) {
     .top-navbar {
@@ -109,4 +110,8 @@
 }
 .m-r-5{
     margin-right: 5px;
+}
+
+table.highlight > tbody > tr:hover{
+    background-color: rgba(141, 187, 240, 0.74);
 }
